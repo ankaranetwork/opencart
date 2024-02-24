@@ -73,7 +73,7 @@ class ControllerExtensionFeedMultifeed extends Controller {
 				  
 				 foreach ($resimler as $key => $resim) {
 				 
-				   $output .= "<image_".$key.">" . $this->server . "image/" . $product[$keyVar] . "</image_".$key.">";
+				   $output .= "<image_".$key.">" . $this->server . "image/" . $resim['image'] . "</image_".$key.">";
 			     
 				 }
 				 
